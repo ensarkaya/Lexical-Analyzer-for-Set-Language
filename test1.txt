@@ -1,0 +1,32 @@
+begin
+const Set <a = (1, $, halil, altay,2);
+Set <b = (£, 1, 3, 4, ensar);
+if(<a != <b)
+{
+	Set <c;
+	<c= <a + <b;	
+}
+else 
+{
+	Set <d;
+	<d = <a ^ <b;
+}
+Set func substraction (Set <e, Set <f)
+{
+	Set <g = <e - <f;
+	return <g;
+}
+Set func cartesian_product(Set <h, Set <g)
+{
+	Set <j = <h * <g;
+	return <j;
+}
+Set func complement(Set <k, Set <l)
+{
+	Set <m = <k ' <l ;
+	return <m;
+}
+write(func substraction(<a , <b));
+write(func cartesian_product(<a , <b));
+write(func complement(<a , <b));
+end

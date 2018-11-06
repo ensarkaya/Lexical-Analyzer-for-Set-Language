@@ -1,0 +1,27 @@
+begin
+Set <a = {1, 2 , 3};
+Set <b = {2, 3}
+while (<b [ <a) {
+      if (<a ] <b) {
+	write("a superset of b");
+      } else {
+	write("a is not superset of b");
+	continue;
+      }
+      break;
+}
+if (<a [ <b | <b [ <a) {
+    write("they have a relation");
+}
+
+Set <c;
+read(<c);
+const Set <d = {"Book", "CS315", "Project"};
+write(union(c<, <d));
+
+Set union(<c, <d) {
+    return (<c + <d);
+}
+
+#This is a line comment
+end

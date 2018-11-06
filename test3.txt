@@ -1,0 +1,18 @@
+begin
+Set <a = (venus, mercur, earth);
+Set <b = (mars, saturn, jupiter);
+Set <c = (uranus, pluton, venus);
+Set func union(Set <a, Set <b){
+Set <c = <a + <b; return <c}
+while(<a != <b & <a == <c )
+{
+	Set <d;
+	if(<a == <c)
+		break;
+	else
+		d = union(<a , <b);
+	<a = read();		
+}
+if(<a ] <b)
+	Set <w = union(<a, <b);
+end

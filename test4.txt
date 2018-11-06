@@ -1,0 +1,10 @@
+begin
+Set <aa;
+<aa = (modern, times, charlie, chaplin, 1936);
+Set <<bb;
+<bb = (the, clockwork, orange, stanley, kubrick, 1971);
+if(<aa ![ <bb)
+	write(<aa);
+if(<<aa !] <bb)
+	write(<bb);
+end
